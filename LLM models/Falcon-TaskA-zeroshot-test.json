@@ -1,0 +1,57 @@
+{
+    "prompt-template": "Binary Sexism Detection: a two-class (or binary) classification where systems have to predict whether a post is sexist or not sexist.\n\nGiven a post determine whether a post is sexist or not sexist.\n\n### Post: {POST}\n### Answer: ",
+    "dev": {
+        "not sexist": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 1514
+        },
+        "sexist": {
+            "precision": 0.243,
+            "recall": 1.0,
+            "f1-score": 0.39098954143201936,
+            "support": 486
+        },
+        "accuracy": 0.243,
+        "macro avg": {
+            "precision": 0.1215,
+            "recall": 0.5,
+            "f1-score": 0.19549477071600968,
+            "support": 2000
+        },
+        "weighted avg": {
+            "precision": 0.059049,
+            "recall": 0.243,
+            "f1-score": 0.09501045856798071,
+            "support": 2000
+        }
+    },
+    "test": {
+        "not sexist": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 3030
+        },
+        "sexist": {
+            "precision": 0.2425,
+            "recall": 1.0,
+            "f1-score": 0.3903420523138833,
+            "support": 970
+        },
+        "accuracy": 0.2425,
+        "macro avg": {
+            "precision": 0.12125,
+            "recall": 0.5,
+            "f1-score": 0.19517102615694165,
+            "support": 4000
+        },
+        "weighted avg": {
+            "precision": 0.05880625,
+            "recall": 0.2425,
+            "f1-score": 0.0946579476861167,
+            "support": 4000
+        }
+    }
+}
